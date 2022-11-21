@@ -1,0 +1,168 @@
+/* Panel */
+
+#panel
+{
+	background:	#1e1e1e;
+}
+
+/* Buttons */
+
+QToolButton::menu-indicator
+{
+	image:		none;
+}
+
+#closeButton
+{
+	qproperty-icon:	url(lxqt-runner/close.svg);
+	margin:		2px;
+}
+
+#closeButton:hover
+{
+	color:		palette(highlighted-text);
+	background:	#505050;
+	border:		1px solid #2b2b2b;
+	border-radius:	2px;
+}
+
+#closeButton:pressed
+{
+	color:		#eeeeee;
+	background:	#2e2e2e;
+	border:		1px solid #282828;
+	border-radius:	2px;
+	padding:	2px;
+}
+
+#actionButton
+{
+	qproperty-icon:	url(lxqt-runner/down-arrow.svg);
+	margin:		2px;
+}
+
+#actionButton:hover
+{
+	color:		#eeeeee;
+	background:	#505050;
+	border:		1px solid #2b2b2b;
+	border-radius:	2px;
+}
+
+#actionButton:pressed
+{
+	color:		#ff0000;
+	background:	#2e2e2e;
+	border:		1px solid #282828;
+	border-radius:	2px;
+	padding:	2px;
+}
+
+
+/* Command Box */
+
+#commandEd
+{
+	color:				#eeeeee;
+	background:			#2e2e2e;
+	selection-color:		#eeeeee;
+	selection-background-color:	palette(highlight);
+	border:				1px solid #282828;
+	border-radius:			2px;
+	padding:			2px;
+}
+
+/*
+ *Search results list
+ */
+
+#commandList {
+	border:				none;
+	background-color:		#2b2b2b;
+	alternate-background-color:	#282828;
+	color:				#eeeeee;
+	selection-color:		#eeeeee;
+	selection-background-color:	palette(highlight);
+}
+
+#commandList::item {
+    background: #2b2b2b;
+    color:	#eeeeee;
+}
+
+#commandList::item:alternate {
+    background: #282828;
+    color:	#eeeeee;
+}
+
+#commandList::item:hover {
+    background:			palette(highlight);
+    color:			#eeeeee;
+}
+
+#commandList::item:selected {
+	background-color:	palette(highlight);
+	color:			#eeeeee;
+}
+
+/* Menus */
+
+QMenu
+{
+	background:		#2e2e2e;
+	color:			#eeeeee;
+
+	border:			1px solid #474747;
+}
+
+QMenu::icon
+{
+	padding-right:		3px;
+}
+
+QMenu::icon:selected
+{
+	padding-right:		3px;
+}
+
+QMenu::right-arrow
+{
+	image: url(arrow-right.svg);
+}
+
+QMenu::right-arrow:selected
+{
+	image: url(arrow-right-selected.svg);
+}
+
+QMenu::left-arrow
+{
+	image: url(arrow-left.svg);
+}
+
+QMenu::left-arrow:selected
+{
+	image: url(arrow-left-selected.svg);
+}
+
+QMenu::item
+{
+	padding-left:		8px;
+	padding-right:		20px;
+	padding-top:		2px;
+	padding-bottom:		2px;
+
+	color:			#eeeeee;
+}
+
+QMenu::item:selected
+{
+	background-color:	#4b4b4b;
+	color:			#eeeeee;
+	padding-left:		8px;
+}
+
+QMenu::item:disabled {
+    color: rgba(0, 0, 0, 50%);
+    background-color: transparent;
+}
