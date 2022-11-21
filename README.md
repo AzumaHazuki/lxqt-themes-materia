@@ -8,4 +8,4 @@ Materia LXQt theme and palette with ePapirus icons, Bear Openbox theme, and Fusi
 
 Materia-Dark LXQt theme and palette with ePapirus-dark icons, Carbon Openbox theme, and Plastik Qt widget style (and a cat)
 
-![Materia-Dark-LXQt](https://user-images.githubusercontent.com/67122280/202954273-c99419d3-9a52-409f-9bca-0ab6cb3d718c.jpg)
+![Materia-Dark-LXQt](https://user-images.githubusercontent.com/67122280/202975708-9aa3dbe3-144f-4f7c-857f-3afb18006b64.jpg)
