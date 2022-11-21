@@ -1,9 +1,9 @@
 [Palette]
-base_color=#1e1e1e
+base_color=#121212
 highlight_color=#8ab4f8
 highlighted_text_color=#ffffff
 link_color=#8ab4f8
 link_visited_color=#ce93d8
 text_color=#dfdfdf
-window_color=#121212
+window_color=#1e1e1e
 window_text_color=#dfdfdf
